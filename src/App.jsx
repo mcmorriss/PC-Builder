@@ -24,7 +24,7 @@ function App() {
   return (
     <div className='App'>
           <Header user={ user }/>
-          <div style={{display: "flex", flexDirection: "row"}}> 
+          <div style={{display: "flex", flexDirection: "row"}} className='content'> 
             <Menu
              items={[
               { label: <Link to="/">Home</Link>},

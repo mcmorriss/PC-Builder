@@ -1,7 +1,23 @@
 #root {
-  max-width: 1280px;
+  max-width: 70%;
   margin: 0 auto;
+  display: flex;
+  justify-content: center;
   padding: 2rem;
   text-align: center;
 }
 
+.content{
+  width: 900px;
+}
+
+
+.create {
+  display: flex;
+  justify-content: center;
+
+}
+
+.build{
+  margin: 0 auto;
+}

@@ -35,7 +35,7 @@ const CreateBuild = ({user}) => {
             setPccase("");
             setPrice(0.00);
         }
-        
+        window.location = "/";
     };
 
   return (

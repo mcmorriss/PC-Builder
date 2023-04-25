@@ -17,7 +17,7 @@ function App() {
     },
     {
       path: "/create",
-      element: <CreateBuild />
+      element: <CreateBuild user={user}/>
     },
   ])
 

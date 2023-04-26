@@ -20,6 +20,11 @@ const Home = () => {
     }
     fetchBuilds();
   }, [])
+
+  const incLike = async (event) => {
+    event.preventDefault();
+    
+  }
   
   return (
     <div>
@@ -35,6 +40,9 @@ const Home = () => {
               <p><u>Storage:</u> {build.storage}</p>
               <p>Price: <b>{build.price}</b></p>
               <p>Likes: {build.likes}</p>
+              <form>
+                <input type='submit' value='Like' />
+              </form>
             </Card>
           </Col>
         ))
